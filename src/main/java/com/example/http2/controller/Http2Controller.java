@@ -9,7 +9,7 @@ public class Http2Controller {
     @RequestMapping(method = RequestMethod.GET, value = "/{version}")
     @ResponseBody
     private String getVersion(@PathVariable(value = "version") String version) {
-        //todo...
+
         return version;
     }
 }
